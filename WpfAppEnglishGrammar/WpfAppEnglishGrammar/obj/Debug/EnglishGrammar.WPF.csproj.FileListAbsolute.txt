@@ -1,0 +1,46 @@
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\WpfAppEnglishGrammar.exe.config
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\WpfAppEnglishGrammar.exe
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\WpfAppEnglishGrammar.pdb
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\EnglishGrammar.WPF.csprojResolveAssemblyReference.cache
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\LoginWindow.g.cs
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\MainWindow.g.cs
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\App.g.cs
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\WpfAppEnglishGrammar_MarkupCompile.cache
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\WpfAppEnglishGrammar_MarkupCompile.lref
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\WpfAppEnglishGrammar.exe
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\WpfAppEnglishGrammar.pdb
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\EnglishGrammar.DAL.exe
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\EnglishGrammar.Entities.exe
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\EnglishGrammar.DAL.pdb
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\EnglishGrammar.Entities.pdb
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\LoginWindow.baml
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\MainWindow.baml
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\WpfAppEnglishGrammar.g.resources
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\App.baml
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\Microsoft.Expression.Controls.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\de\Microsoft.Expression.Controls.resources.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\es\Microsoft.Expression.Controls.resources.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\fr\Microsoft.Expression.Controls.resources.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\it\Microsoft.Expression.Controls.resources.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\ja\Microsoft.Expression.Controls.resources.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\ko\Microsoft.Expression.Controls.resources.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\ru\Microsoft.Expression.Controls.resources.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\zh-Hans\Microsoft.Expression.Controls.resources.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\zh-Hant\Microsoft.Expression.Controls.resources.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\PieControls.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\WPFToolkit.Extended.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\WPFToolkit.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\WPFToolkit.pdb
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\RegisterWindow.g.cs
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\RegisterWindow.baml
+C:\Users\olenk\Desktop\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\WpfAppEnglishGrammar.exe.config
+C:\Users\olenk\Desktop\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\WpfAppEnglishGrammar.exe
+C:\Users\olenk\Desktop\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\WpfAppEnglishGrammar.pdb
+C:\Users\olenk\Source\Repos\TestingSystem-EnglishJedi\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\WpfAppEnglishGrammar.exe.config
+C:\Users\olenk\Source\Repos\TestingSystem-EnglishJedi\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\WpfAppEnglishGrammar.exe
+C:\Users\olenk\Source\Repos\TestingSystem-EnglishJedi\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\WpfAppEnglishGrammar.pdb

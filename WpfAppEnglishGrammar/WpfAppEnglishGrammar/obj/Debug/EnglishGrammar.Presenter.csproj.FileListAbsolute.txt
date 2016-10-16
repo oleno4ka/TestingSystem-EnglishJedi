@@ -1,0 +1,14 @@
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\WpfAppEnglishGrammar.exe.config
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\WpfAppEnglishGrammar.exe
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\bin\Debug\WpfAppEnglishGrammar.pdb
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\EnglishGrammar.Presenter.csprojResolveAssemblyReference.cache
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\MainWindow.g.cs
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\App.g.cs
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\WpfAppEnglishGrammar_MarkupCompile.cache
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\WpfAppEnglishGrammar_MarkupCompile.lref
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\MainWindow.baml
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\WpfAppEnglishGrammar.g.resources
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\WpfAppEnglishGrammar.Properties.Resources.resources
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\EnglishGrammar.Presenter.csproj.GenerateResource.Cache
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\WpfAppEnglishGrammar.exe
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\WpfAppEnglishGrammar\obj\Debug\WpfAppEnglishGrammar.pdb

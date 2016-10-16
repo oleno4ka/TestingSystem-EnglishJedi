@@ -1,0 +1,11 @@
+﻿<Application x:Class="WpfAppEnglishGrammar.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfAppEnglishGrammar"
+             StartupUri="LoginWindow.xaml">
+    <Application.Resources>
+
+        <BitmapImage x:Key="Images" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="Images/lightsaber_blue.png"/>
+
+    </Application.Resources>
+</Application>

@@ -1,0 +1,9 @@
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.SQL\bin\Debug\EnglishGrammar.SQL.dacpac
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.SQL\bin\Debug\EnglishGrammar.SQL.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.SQL\bin\Debug\EnglishGrammar.SQL.pdb
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.SQL\obj\Debug\EnglishGrammar.SQL.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.SQL\obj\Debug\EnglishGrammar.SQL.pdb
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.SQL\obj\Debug\Model.xml
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.SQL\obj\Debug\refactor.xml
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.SQL\obj\Debug\postdeploy.sql
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.SQL\obj\Debug\predeploy.sql

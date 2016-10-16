@@ -1,0 +1,15 @@
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.DAL\obj\Debug\EnglishGrammar.DAL.csprojResolveAssemblyReference.cache
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.DAL\obj\Debug\App.g.cs
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.DAL\obj\Debug\EnglishGrammar.DAL_MarkupCompile.cache
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.DAL\bin\Debug\EnglishGrammar.DAL.exe.config
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.DAL\bin\Debug\EnglishGrammar.DAL.exe
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.DAL\bin\Debug\EnglishGrammar.DAL.pdb
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.DAL\bin\Debug\EnglishGrammar.Entities.exe
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.DAL\bin\Debug\EntityFramework.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.DAL\bin\Debug\System.Data.Entity.Repository.dll
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.DAL\bin\Debug\EnglishGrammar.Entities.pdb
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.DAL\bin\Debug\EntityFramework.xml
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.DAL\obj\Debug\EnglishGrammar.DAL.Properties.Resources.resources
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.DAL\obj\Debug\EnglishGrammar.DAL.csproj.GenerateResource.Cache
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.DAL\obj\Debug\EnglishGrammar.DAL.exe
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.DAL\obj\Debug\EnglishGrammar.DAL.pdb

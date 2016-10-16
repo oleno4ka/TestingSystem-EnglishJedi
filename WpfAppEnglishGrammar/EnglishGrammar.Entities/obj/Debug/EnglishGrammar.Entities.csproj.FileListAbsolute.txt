@@ -1,0 +1,10 @@
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Entities\obj\Debug\App.g.cs
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Entities\obj\Debug\EnglishGrammar.Entities_MarkupCompile.cache
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Entities\obj\Debug\EnglishGrammar.Entities.Properties.Resources.resources
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Entities\obj\Debug\EnglishGrammar.Entities.csproj.GenerateResource.Cache
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Entities\obj\Debug\EnglishGrammar.Entities.pdb
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Entities\bin\Debug\EnglishGrammar.Entities.exe.config
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Entities\bin\Debug\EnglishGrammar.Entities.exe
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Entities\bin\Debug\EnglishGrammar.Entities.pdb
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Entities\obj\Debug\EnglishGrammar.Entities.exe
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Entities\obj\Debug\EnglishGrammar.Entities.csprojResolveAssemblyReference.cache

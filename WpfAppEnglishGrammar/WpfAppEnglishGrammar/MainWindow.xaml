@@ -1,0 +1,280 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppEnglishGrammar"
+        xmlns:pie="clr-namespace:PieControls;assembly=PieControls"
+    
+        xmlns:Entities="clr-namespace:EnglishGrammar.Entities;assembly=EnglishGrammar.Entities" 
+        x:Class="WpfAppEnglishGrammar.MainWindow"
+        mc:Ignorable="d"
+        Title="English Jedi" Height="600" Width="800" Icon="Images/r2d22.png" Style="{DynamicResource FontSTARWARS}"  MinHeight="600" MinWidth="800">
+    <Window.Resources>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Width" Value="135"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="20,0,0,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="ButtonBorder" CornerRadius="5" Height="30" Width="130"
+                                Background="Transparent" BorderBrush="#FF5FFBD8" BorderThickness="4,4,4,4" >
+                            <TextBlock x:Name="ButtonText" FontSize="28" Foreground="#FF5FFBD8" TextAlignment="Center" 
+                                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                                       Text="{TemplateBinding Content}">
+                            </TextBlock>
+
+                        </Border>
+                        <ControlTemplate.Triggers>
+
+                            <Trigger  Property="IsMouseOver" Value="True">
+                                <Setter TargetName="ButtonBorder" Property="BorderBrush" Value="Gold"/>
+                                <Setter TargetName="ButtonText" Property="Foreground" Value="Gold"/>
+                            </Trigger>
+                            <Trigger  Property="IsMouseOver" Value="False">
+                                <Setter TargetName="ButtonBorder" Property="BorderBrush" Value="#FF5FFBD8"/>
+                                <Setter TargetName="ButtonText" Property="Foreground" Value="#FF5FFBD8"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <!--//Changed-->
+        <Style x:Key="FontSTARWARS">
+            <Setter Property="TextBlock.FontFamily" Value="Resources/#STARWARS" />
+        </Style>
+        <Style x:Key="FontSansation">
+            <Setter Property="TextBlock.FontFamily" Value="Resources/#Sansation" />
+        </Style>
+        <Style x:Key="ButtonNextStyle" TargetType="{x:Type local:TestTabItem}">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Width" Value="135"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="20,0,0,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type local:TestTabItem}">
+                        <Border x:Name="ButtonBorder" CornerRadius="5" Height="30" Width="130"
+                                Background="Transparent" BorderBrush="#FF5FFBD8" BorderThickness="4,4,4,4" >
+                            <TextBlock x:Name="ButtonText" FontSize="28" Foreground="#FF5FFBD8" TextAlignment="Center" 
+                                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                                       Text="{TemplateBinding Content}">
+                            </TextBlock>
+
+                        </Border>
+                        <ControlTemplate.Triggers>
+
+                            <Trigger  Property="IsMouseOver" Value="True">
+                                <Setter TargetName="ButtonBorder" Property="BorderBrush" Value="Gold"/>
+                                <Setter TargetName="ButtonText" Property="Foreground" Value="Gold"/>
+                            </Trigger>
+                            <Trigger  Property="IsMouseOver" Value="False">
+                                <Setter TargetName="ButtonBorder" Property="BorderBrush" Value="#FF5FFBD8"/>
+                                <Setter TargetName="ButtonText" Property="Foreground" Value="#FF5FFBD8"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <!--//Changed-->
+
+    </Window.Resources>
+    <Window.Cursor>
+        <Binding Mode="OneWay" Source="{StaticResource Images}"/>
+    </Window.Cursor>
+    <Grid  >
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/mainWall.jpg" TileMode="FlipX">
+                <ImageBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleY="1" ScaleX="1"/>
+                        <SkewTransform AngleY="0" AngleX="0" CenterY="0.5" CenterX="0.5"/>
+                        <RotateTransform Angle="0" CenterY="0.5" CenterX="0.5"/>
+                        <TranslateTransform X="2"/>
+                    </TransformGroup>
+                </ImageBrush.RelativeTransform>
+            </ImageBrush>
+        </Grid.Background>
+
+
+
+        <TabControl x:Name="mainTabControl" Background="Transparent" BorderThickness="0" TabStripPlacement="Left" Margin="0,100,0,0" SelectionChanged="TabControl_SelectionChanged" FontFamily="Tw Cen MT Condensed Extra Bold" Foreground="#FF032038" >
+            <TabControl.Resources>
+                <Style TargetType="{x:Type TabItem}">
+                    <Setter Property="FontFamily" Value="Resources/#STARWARS"/>
+                    <Setter Property="FontSize" Value="20"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type TabItem}">
+                                <Grid>
+                                    <Border Name="Border" Height="50" Width="200">
+                                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10" ContentSource="Header"/>
+                                    </Border>
+                                </Grid>
+                                <ControlTemplate.Triggers>
+                                    <Trigger  Property="IsSelected" Value="True">
+                                        <Setter TargetName="Border" Property="Background" Value="#FF83E8E8"/>
+                                    </Trigger>
+                                    <Trigger Property="IsSelected" Value="False">
+                                        <Setter TargetName="Border"  Property="Background" Value="#FF329C9C"/>
+                                    </Trigger>
+                                    <Trigger  Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Border" Property="Background" Value="#FF2CA6C1"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+                <Style TargetType="{x:Type local:TestTabItem}">
+                    <Setter Property="FontFamily" Value="Resources/#STARWARS"/>
+                    <Setter Property="FontSize" Value="20"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type local:TestTabItem}">
+                                <Grid>
+                                    <Border Name="Border" Height="50" Width="200">
+                                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10" ContentSource="Header"/>
+                                    </Border>
+                                </Grid>
+                                <ControlTemplate.Triggers>
+                                    <Trigger  Property="IsSelected" Value="True">
+                                        <Setter TargetName="Border" Property="Background" Value="#FF83E8E8"/>
+                                    </Trigger>
+                                    <Trigger Property="IsSelected" Value="False">
+                                        <Setter TargetName="Border"  Property="Background" Value="#FF329C9C"/>
+                                    </Trigger>
+                                    <Trigger  Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="Border" Property="Background" Value="#FF2CA6C1"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TabControl.Resources>
+
+            <TabItem x:Name="tcPersonName" Header="PERSON INFO" Foreground="#FF032038">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                        <GradientStop Color="#FF0D4A87" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid x:Name="tbPersonInfoGrid" Margin="10,10,10,130">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition x:Name="tbPersonInfoIconColumn"/>
+                        <ColumnDefinition x:Name="tbPersonInfoTextColumn" Width="355"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <!--<RowDefinition x:Name="tbCanvasRow"  Height="160"/>-->
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="textBlockName" HorizontalAlignment="Left" Margin="54,30,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="#FF78FFED" Style="{DynamicResource FontSansation}"  Height="27"  Grid.Column="1" FontWeight="Bold"  />
+                    <TextBlock x:Name="textBlockLast" HorizontalAlignment="Left" Margin="54,60,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="#FF78FFED" Style="{DynamicResource FontSansation}"  FontWeight="Bold" Height="27"  Grid.Column="1" />
+                    <TextBlock x:Name="textBlockLogin" HorizontalAlignment="Left" Margin="54,90,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="#FF78FFED" Style="{DynamicResource FontSansation}"  FontWeight="Bold" Height="27"  Grid.Column="1"  />
+                    <TextBlock x:Name="textBlockScore" HorizontalAlignment="Left" Margin="54,150,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="#FF78FFED" Style="{DynamicResource FontSansation}"  FontWeight="Bold" Height="27"  Grid.Column="1"  />
+                    <TextBlock x:Name="textBlockPercentScore" HorizontalAlignment="Left" Margin="54,180,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="#FF78FFED" Style="{DynamicResource FontSansation}"  FontWeight="Bold" Height="27"  Grid.Column="1"  />
+
+                    <Image x:Name="image" HorizontalAlignment="Left" Height="285" Margin="10,10,0,0" VerticalAlignment="Top" Width="191" Grid.Column="0"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tcShowAllTests" Header="ALL TESTS" Foreground="#FF032038">
+                <ScrollViewer x:Name="scrolerTestShow" >
+                    <Grid x:Name="tbTestMainGrid" Margin="0,20,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition x:Name="tbTestIconColumn" Width="150"/>
+                            <ColumnDefinition x:Name="tbTestTextColumn" Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <!--<RowDefinition x:Name="tbCanvasRow"  Height="160"/>-->
+                        </Grid.RowDefinitions>
+
+                    </Grid>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem x:Name="tcShowRating" Header="SHOW RATING" Foreground="#FF032038">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                        <GradientStop Color="#FF2891A8" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid x:Name="tbRating" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition x:Name="tbCanvasRow"  Height="30"/>
+                        <RowDefinition x:Name="tbCanvasRow2"  />
+                    </Grid.RowDefinitions>
+                    <ComboBox Grid.Row="0" SelectionChanged="TabControl_SelectionChanged" BorderBrush="{x:Null}" Foreground="#FF1119BF" BorderThickness="0" FontFamily="Yu Gothic UI Semibold" Margin="30,0,250,0" AutomationProperties.HelpText="Select Sorted Field">
+                        <ComboBox.Background>
+                            <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                                <GradientStop Color="#FFA9BBC3" Offset="0"/>
+                                <GradientStop Color="#FF3C99A2" Offset="1"/>
+                                <GradientStop Color="#FEE9ECED" Offset="0.125"/>
+                            </LinearGradientBrush>
+                        </ComboBox.Background>
+                        <ComboBoxItem Name="Score" Content="Score" ></ComboBoxItem>
+                        <ComboBoxItem Name="AVGScore" Content="Average score"></ComboBoxItem>
+                    </ComboBox>
+                    <ScrollViewer x:Name="scrolerRatingShow" Grid.Row="1" >
+                        <Grid x:Name="tbRatingMainGrid" >
+
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition x:Name="tbRatingIconColumn" Width="102"/>
+                                <ColumnDefinition x:Name="tbRatingTextColumn"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <!--<RowDefinition x:Name="tbCanvasRow"  Height="160"/>-->
+                            </Grid.RowDefinitions>
+
+
+                        </Grid>
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tcShowThemeRating" Header="THEME RATING" Foreground="#FF032038">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                        <GradientStop Color="#FF2891A8" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid x:Name="tbTRating" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition x:Name="tbTCanvasRow"  Height="30"/>
+                        <RowDefinition x:Name="tbTCanvasRow2"  />
+                    </Grid.RowDefinitions>
+
+                    <ScrollViewer x:Name="scrolerTRatingShow" Grid.Row="1" >
+                        <Grid x:Name="tbThemeRatingMainGrid" >
+
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition x:Name="tbTRatingIconColumn" Width="80"/>
+                                <ColumnDefinition x:Name="tbTRatingTextColumn"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <!--<RowDefinition x:Name="tbCanvasRow"  Height="160"/>-->
+                            </Grid.RowDefinitions>
+
+
+                        </Grid>
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+        <Rectangle HorizontalAlignment="Left" Height="86" Margin="24,9,0,0" Stroke="#FF0B4270" VerticalAlignment="Top" Width="223" StrokeThickness="0">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="Images/EnglishJ.png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+    </Grid>
+</Window>

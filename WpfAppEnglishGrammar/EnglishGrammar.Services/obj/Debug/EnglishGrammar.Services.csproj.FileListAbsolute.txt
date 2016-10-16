@@ -1,0 +1,14 @@
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Services\bin\Debug\EnglishGrammar.Services.exe.config
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Services\bin\Debug\EnglishGrammar.Services.exe
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Services\bin\Debug\EnglishGrammar.Services.pdb
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Services\obj\Debug\EnglishGrammar.Services.csprojResolveAssemblyReference.cache
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Services\obj\Debug\MainWindow.g.cs
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Services\obj\Debug\App.g.cs
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Services\obj\Debug\EnglishGrammar.Services_MarkupCompile.cache
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Services\obj\Debug\EnglishGrammar.Services_MarkupCompile.lref
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Services\obj\Debug\MainWindow.baml
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Services\obj\Debug\EnglishGrammar.Services.g.resources
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Services\obj\Debug\EnglishGrammar.Services.Properties.Resources.resources
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Services\obj\Debug\EnglishGrammar.Services.csproj.GenerateResource.Cache
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Services\obj\Debug\EnglishGrammar.Services.exe
+C:\Users\olenk\OneDrive\Документы\Visual Studio 2015\Projects\WpfAppEnglishGrammar\EnglishGrammar.Services\obj\Debug\EnglishGrammar.Services.pdb
