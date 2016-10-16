@@ -57,11 +57,16 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="AdditionalDataBaseScript" />
   </ItemGroup>
   <ItemGroup>
     <None Include="insert.sql" />
     <None Include="drop.sql" />
     <None Include="procedures.sql" />
     <None Include="create.sql" />
+    <None Include="AdditionalDataBaseScript\EnglishJedi.bak" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="AdditionalDataBaseScript\script.sql" />
   </ItemGroup>
 </Project>
