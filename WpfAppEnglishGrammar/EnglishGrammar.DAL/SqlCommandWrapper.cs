@@ -51,6 +51,9 @@ namespace EnglishGrammar.DAL
             }
         }
 
+        // Review - Oleg: You have checks 23>if(parameters != null){...} and  36>if (callback != null){...} in ExecuteReader<T>
+        //method, so methods ExecuteReaderWithParams<T> and ExecuteReaderWithoutParamsAndCallback, in my opinion, unneeded.
+         
         public object ExecuteReaderWithParams<T>(CommandType commandType, string commandText, SqlParameter[] parameters)
         {
             using (var connection = new SqlConnection(_connectionString))
