@@ -7,7 +7,7 @@ namespace EnglishGrammar.DAL.Concrete.Parsers
     public static class AppUserParser
     {
         
-        //Review - Oleg: Duplication of code! You do not need so many methods to
+        //Review - Oleg Shandra: Duplication of code! You do not need so many methods to
         //create a parser, you only need to create one parser method to create models instances.
         
         public static AppUser SetNewUser(SqlDataReader reader)
