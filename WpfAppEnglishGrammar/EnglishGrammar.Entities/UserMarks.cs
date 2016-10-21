@@ -9,7 +9,7 @@ namespace EnglishGrammar.Entities
         public string Login { get; set; }
 
         //Review - Oleg Shandra: It is difficult to read so many lambda expressions in get accessors. 
-         //In my opinion, it was better to make a single stored procedures for finding these values.
+         //In my opinion, it will be better to make a single stored procedures to find these values.
          //The same issue in Mark.cs.
         public int Score { get { return (Marks != null && Marks.Count > 0) ? Marks.GroupBy(v => v.TestId).Select(group => group.Max(f => f.Value)*group.Select(v => v.Test.TestLevel.ScoreCoeficient).First()).Sum(): 0 ; } } 
         public double AverageScore { get { return (Marks != null && Marks.Count > 0) ?  (int)Marks.GroupBy(v => v.TestId).Select(group => group.Max(f => f.Value)).Average() :0 ; } }
