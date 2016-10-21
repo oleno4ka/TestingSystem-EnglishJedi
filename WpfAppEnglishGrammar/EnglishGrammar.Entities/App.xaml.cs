@@ -8,9 +8,6 @@ using System.Windows;
 
 namespace EnglishGrammar.Entities
 {
-     // Review - Oleg:  Why is this class here?
-     // Review - Oleg: No need to use the library System.Windows in data access layer
-
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
