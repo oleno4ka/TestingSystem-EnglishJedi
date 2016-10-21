@@ -1,4 +1,4 @@
---Review - Oleg Shandra: You turned off this file from the project, but forgot to delete it at all.
+--Review - Oleg Shandra: You turned off this file from the project in VS solution, but forgot to delete it at all.
 CREATE PROCEDURE [dbo].[spGetAllTests] AS
 	SELECT Id,UserLogin,UserPassword FROM [dbo].AppUser
 -------------------------------------------------------
