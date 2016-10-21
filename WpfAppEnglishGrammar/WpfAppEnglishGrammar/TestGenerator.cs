@@ -16,6 +16,13 @@ namespace WpfAppEnglishGrammar
 {
     public class TestStardedPage 
     {
+        
+          //Review - Oleg Shandra: Too many magic numbers! 
+          //Review - Oleg Shandra: Follow the correct type of variables naming: 
+            // do not use Hungary notation; input parameters methods without underscore
+          //Review - Oleg Shandra: try to use object initializator   
+          //Review - Oleg Shandra: use 'var' keyword when creating new objects instances
+        
         /// <summary>
         /// Interaction logic for and test-passing process  generation
         /// </summary>
