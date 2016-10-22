@@ -27,6 +27,7 @@ namespace WpfAppEnglishGrammar
 
         private readonly ITestRepository _testRepository;
         private readonly IMarkRepository _markRepository;
+        // Review - Oleg Shandra: Write private modifier to each private field
         TestStardedPage testPage;
         WindowGenerator generator;
         Random rand ;
@@ -112,7 +113,8 @@ namespace WpfAppEnglishGrammar
             mainTabControl.Items.Remove(((sender as Button).Parent as Grid).Parent as TestTabItem);
         }
         #endregion
-
+        
+        // Review - Oleg Shandra: Input parameters without underscore
         private Mark SaveMark(Mark _mark)
         {
             _markRepository.InsertMark(_mark);
@@ -147,6 +149,10 @@ namespace WpfAppEnglishGrammar
         #endregion
 
     }
+    
+    // Review - Oleg Shandra: Why are these classes here? Why are they not in single files?
+    // Review - Oleg Shandra: Write all public fields with a capital letter.
+    // Review - Oleg Shandra: Class (in your case controllers) can contain only those fields that describe it, and not something else
     #region AdditionalClasses
     internal class TestCanvas : Canvas
     {

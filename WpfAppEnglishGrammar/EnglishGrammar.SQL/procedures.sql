@@ -1,6 +1,8 @@
 ﻿USE EnglishJedi;
 GO
 
+--Review - Oleg Shandra: Best practice is to write all the keywords in capital letters
+
 CREATE PROC [dbo].[spGetAllMarkAnswers]  
 AS
 BEGIN  

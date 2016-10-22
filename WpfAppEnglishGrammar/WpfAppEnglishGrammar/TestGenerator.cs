@@ -16,6 +16,18 @@ namespace WpfAppEnglishGrammar
 {
     public class TestStardedPage 
     {
+        
+          //Review - Oleg Shandra: Too many magic numbers! 
+          //Review - Oleg Shandra: Follow the correct type of variables naming: 
+            // do not use Hungary notation; all input parameters without underscore;
+            // public fields begin with a capital letter, without underscore
+          //Review - Oleg Shandra: Try to use object initializator   
+          //Review - Oleg Shandra: Use 'var' keyword when creating new objects instances
+          //Review - Oleg Shandra: Write all if-else constructions with two brackets
+          //Review - Oleg Shandra: It would be better to create a constant strings
+            //(instead of literals) and give them names that describe them.    
+        
+        
         /// <summary>
         /// Interaction logic for and test-passing process  generation
         /// </summary>
@@ -69,6 +81,9 @@ namespace WpfAppEnglishGrammar
             #region Сontrols
 
             ColumnDefinitionCollection cDefs = answerGrid.ColumnDefinitions;
+            //Review - Oleg Shandra: Do not use Hungary notation
+            //Review - Oleg Shandra: It would be better to write same literals in a single string variables
+            //Review - Oleg Shandra: It would be better to place the the next line of code in the loop and achieve the same result
             cDefs.Add(new ColumnDefinition() { Name = "tbTest" + test.Id + "tbTestTextRadioButtonsColumn" });
             cDefs.Add(new ColumnDefinition() { Name = "tbTest" + test.Id + "tbTestTextAnswersColumn" });
             cDefs.Add(new ColumnDefinition() { Name = "tbTest" + test.Id + "tbTestTextNextButtonColumn" });
@@ -354,6 +369,8 @@ namespace WpfAppEnglishGrammar
                 allRating.AddRange(_markRepository.GetAllUsersScores());
                 if (allRating.Count != 0 && allRating != null)
                 {
+                     //Review - Oleg Shandra: You have written three same lambda expressions. 
+                         //It would be better to put the result of one in a variable and use it
                     mainWindow.textBlockScore.Text = allRating.Where(f => f.Login == UserConfig.Login).First().Score + " scores";
                     double level = allRating.Where(f => f.Login == UserConfig.Login).First().PercentScore;
                     mainWindow.textBlockPercentScore.Text = allRating.Where(f => f.Login == UserConfig.Login).First().PercentScore + " % success";
@@ -638,6 +655,8 @@ namespace WpfAppEnglishGrammar
                             //Description TextBlock
                             TextBlock textBlockDescription = new TextBlock();
                             textBlockDescription.Name = "textBlockTest" + test.Login + "fDescription";
+                            //Review - Oleg Shandra: You have written two same lambda expressions. 
+                              //It would be better to put the result of one in a variable and use it
                             if (test.ThemasScore.Where(w => w.Theme.Theme == "Grammar").Count() != 0)
                                 textBlockDescription.Text = test.ThemasScore.Where(w => w.Theme.Theme == "Grammar").FirstOrDefault().Score.ToString() + "%  Grammar";
                             textBlockDescription.FontSize = 20;
@@ -666,6 +685,8 @@ namespace WpfAppEnglishGrammar
 
                             TextBlock textBlockDescription3 = new TextBlock();
                             textBlockDescription3.Name = "textBlockTest" + test.Login + "gD";
+                             //Review - Oleg Shandra: You have written two same lambda expressions. 
+                              //It would be better to put the result of one in a variable and use it
                             if (test.ThemasScore.Where(w => w.Theme.Theme == "Vocabulary").Count() != 0)
                                 textBlockDescription3.Text = test.ThemasScore.Where(w => w.Theme.Theme == "Vocabulary").FirstOrDefault().Score.ToString() + "% Vocabulary";
                             textBlockDescription3.FontSize = 20;

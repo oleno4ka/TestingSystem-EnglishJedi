@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 namespace EnglishGrammar.DAL.Concrete.Parsers
 {
     public static class MarkParser
-    {
+    {        
         public static Mark GetMark(SqlDataReader reader)
         {
             var mark = new Mark();

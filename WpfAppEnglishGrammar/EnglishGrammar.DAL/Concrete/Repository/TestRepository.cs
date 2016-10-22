@@ -50,6 +50,9 @@ namespace EnglishGrammar.DAL.Concrete.Repository
                 MessageBox.Show("Exception cathed in GetAllUsersScores: " + ex.Message);
                 return null;
             }
+            
+            // Review - Oleg Shandra: Format your code
+            
 }
 
         public List<Test> GetAllTestForUserWithMarks(string login)

@@ -3,6 +3,7 @@ using EnglishGrammar.Entities;
 
 namespace WpfAppEnglishGrammar
 {
+    // Review - Oleg Shandra: This class has only static fields. Why is it not static?
     public class UserConfig
     {
         private static AppUser user;
