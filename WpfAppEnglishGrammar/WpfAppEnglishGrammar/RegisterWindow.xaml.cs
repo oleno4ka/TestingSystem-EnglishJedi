@@ -35,7 +35,8 @@ namespace WpfAppEnglishGrammar
                 this.Close();
             }
         }
-         // Review - Oleg Shandra: Format your code - leave empty line after each method
+         // Review - Oleg Shandra: Format your code - leave empty line after each property
+         // Review - Oleg Shandra: Write private modifier to each private field
         bool Validate
         {
             get
