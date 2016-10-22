@@ -35,6 +35,7 @@ namespace WpfAppEnglishGrammar
                 this.Close();
             }
         }
+         // Review - Oleg Shandra: Format your code - leave empty line after each method
         bool Validate
         {
             get
