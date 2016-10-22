@@ -42,7 +42,9 @@ namespace EnglishGrammar.DAL.Concrete.Repository
                 userList.AddRange(user);
 
                 return userList;
-            }             
+            }           
+            
+            // Review - Olef Shandra: Format your code
             catch(Exception ex)
             {
                 throw new Exception("Exception cathed in GetAllUsersAnswers: " + ex.Message, ex);
