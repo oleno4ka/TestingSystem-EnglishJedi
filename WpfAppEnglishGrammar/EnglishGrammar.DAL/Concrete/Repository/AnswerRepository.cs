@@ -44,7 +44,7 @@ namespace EnglishGrammar.DAL.Concrete.Repository
                 return userList;
             }           
             
-            // Review - Olef Shandra: Format your code
+            // Review - Oleg Shandra: Format your code
             catch(Exception ex)
             {
                 throw new Exception("Exception cathed in GetAllUsersAnswers: " + ex.Message, ex);
