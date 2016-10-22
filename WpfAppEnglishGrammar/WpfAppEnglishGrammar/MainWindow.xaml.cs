@@ -149,9 +149,11 @@ namespace WpfAppEnglishGrammar
         #endregion
 
     }
-    #region AdditionalClasses
+    
     // Review - Oleg Shandra: Why are these classes here? Why are they not in single files?
+    // Review - Oleg Shandra: Write all public fields with a capital letter.
     // Review - Oleg Shandra: Class (in your case controllers) can contain only those fields that describe it, and not something else
+    #region AdditionalClasses
     internal class TestCanvas : Canvas
     {
         public Test test { get; set; }
