@@ -27,6 +27,7 @@ namespace WpfAppEnglishGrammar
 
         private readonly ITestRepository _testRepository;
         private readonly IMarkRepository _markRepository;
+        // Review TK: It is a good practice to use access modifiers before fields.
         TestStardedPage testPage;
         WindowGenerator generator;
         Random rand ;
@@ -38,11 +39,13 @@ namespace WpfAppEnglishGrammar
         public MainWindow()
         {
             InitializeComponent();
+            // Review TK: Please try to avoid tight coupling.
             generator = new WindowGenerator(this);
             string connectionString = ConfigurationManager.ConnectionStrings["EnglishJediConnection"].ConnectionString;
             try
             {                
                 _testRepository = new TestRepository(connectionString);
+                // Review TK: Please use {} with if statement.
                 if (_testRepository == null)
                     throw new NoConnectionToDBException();
                     _markRepository = new MarkRepository(connectionString);
@@ -88,6 +91,8 @@ namespace WpfAppEnglishGrammar
         #region EventMethod
         public void TestCanvas_MouseEnter(object sender, MouseEventArgs e)
         {
+            // Review TK: You could use color string
+            // Possible null reference. 
             (sender as Canvas).Background = new SolidColorBrush(Color.FromRgb(0x09, 0xA9, 0xE5));
         }
         public void TestCanvas_MouseLeave(object sender, MouseEventArgs e)
@@ -123,8 +128,10 @@ namespace WpfAppEnglishGrammar
         {
             foreach (TabItem x in mainTabControl.Items) //check if tab for thet test alredy exist
             {
+                // Review TK: You could just write (x as TestTabItem)?.test.Id == test.Id
                 if (x is TestTabItem && (x as TestTabItem).test.Id == test.Id)
                 {
+                    // Review TK: Please don't abuse safe casting.
                     generator.StartGenerateTest(x as TestTabItem);
                     return;
                 }
@@ -155,11 +162,13 @@ namespace WpfAppEnglishGrammar
   
     public class TestTabItem : TabItem
     {
+        // Review TK: Naming for fields.
         public Test test { get; set; }
         public bool isTestStarted = false;
     }
     public class NextButton : Button 
     {
+        // Review TK: It isn't a good practice to insert bussiness logic into UI component.
         public Queue<Question> questionQueue = new Queue<Question>();
         public Question question = new Question() { };
     }

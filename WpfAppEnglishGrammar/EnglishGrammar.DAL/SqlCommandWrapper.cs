@@ -13,6 +13,7 @@ namespace EnglishGrammar.DAL
             _connectionString = connectionString;
         }
 
+        // Review TK: Please use constraints with generic.
         public object ExecuteReader<T>(CommandType commandType,
            string commandText, SqlParameter[] parameters, Func<SqlDataReader, T> callback = null)
         {
@@ -61,6 +62,7 @@ namespace EnglishGrammar.DAL
                     connection.Open();
                     command.CommandTimeout = 0;
 
+                    // Review TK: It seems a little bit strange.
                     var result = command.ExecuteReader();
 
                     return null;

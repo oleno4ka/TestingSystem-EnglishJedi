@@ -16,6 +16,8 @@ namespace WpfAppEnglishGrammar
             user = _user;
         }
 
+        // Review TK: it would be more readeble if you wrote
+        // public static int Id => user.Id;
         public static int Id
         {
             get

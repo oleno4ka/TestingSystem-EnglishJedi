@@ -13,6 +13,7 @@ namespace WpfAppEnglishGrammar
     /// </summary>
     public partial class RegisterWindow : Window
     {
+        // Review TK: It is a good practice to make such initializartion within constructor.
         IAppUserRepository _appUserRepository = new AppUserRepository(ConfigurationManager.ConnectionStrings["EnglishJediConnection"].ConnectionString);
         public RegisterWindow()
         {
@@ -21,6 +22,7 @@ namespace WpfAppEnglishGrammar
 
         private void registerButton_Click(object sender, RoutedEventArgs e)
         {
+            // Review TK: You could use more appropriate name for boolean variables. For instance, IsValid or something like that.
             if (Validate)
             {
                 AppUser newUser = new AppUser()
@@ -35,6 +37,7 @@ namespace WpfAppEnglishGrammar
                 this.Close();
             }
         }
+        // Review TK: I don't see any access modifiers.
         bool Validate
         {
             get
@@ -65,6 +68,7 @@ namespace WpfAppEnglishGrammar
                 {
                     return true;
                 }
+                // Review TK: Please try to avoid redundant else statement.
                 else
                 {
                     MessageBox.Show("LastName could not be empty.");
@@ -133,6 +137,7 @@ namespace WpfAppEnglishGrammar
             }
         }
 
+        // Review TK: It seems you don't use this methods.
         private void showPasswordConfirm_Checked(object sender, RoutedEventArgs e)
         {
             if ((sender as CheckBox).IsChecked.Value)

@@ -4,6 +4,7 @@ using System.Security.Cryptography;
 
 namespace EnglishGrammar.DAL.Servises
 {
+    // Review TK: It would be great to create interface, for e.g IHashService.
     public class UserService
     {
         public static string MD5Hash(string text)

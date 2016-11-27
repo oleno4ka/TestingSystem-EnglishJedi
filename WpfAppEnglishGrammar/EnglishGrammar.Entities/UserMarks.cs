@@ -7,7 +7,7 @@ namespace EnglishGrammar.Entities
     public class UserMarks
     {
         public string Login { get; set; }
-
+        // Review TK: Please see my comments in Mark class.
         public int Score { get { return (Marks != null && Marks.Count > 0) ? Marks.GroupBy(v => v.TestId).Select(group => group.Max(f => f.Value)*group.Select(v => v.Test.TestLevel.ScoreCoeficient).First()).Sum(): 0 ; } } 
         public double AverageScore { get { return (Marks != null && Marks.Count > 0) ?  (int)Marks.GroupBy(v => v.TestId).Select(group => group.Max(f => f.Value)).Average() :0 ; } }
         public double PercentScore { get { return (Marks != null && Marks.Count > 0) ?  (int)Marks.GroupBy(v => v.TestId).Select(group => group.Average(f => f.PercentValue)).Average() :0 ; } }

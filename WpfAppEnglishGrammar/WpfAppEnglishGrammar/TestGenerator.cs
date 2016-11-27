@@ -20,6 +20,8 @@ namespace WpfAppEnglishGrammar
         /// Interaction logic for and test-passing process  generation
         /// </summary>
         #region Fields
+        // Review TK: It isn't a good practice to have a public fields within class.
+        // It is a violation of sOlid principles.
         public MainWindow mainform;
         public Grid answerGrid;
 
@@ -36,10 +38,12 @@ namespace WpfAppEnglishGrammar
         public List<AnswerRadioButton> answersRadioButtuns = new List<AnswerRadioButton>() { };
         public List<TextBlock> answersTextBlocks = new List<TextBlock>() { };
         public Queue<Question> _questionQueue;
+        // Review TK: Please don't forget about naming for fields.
         private Func<Mark, Mark> Callback;
 
         #endregion
 
+        // Review TK: Naming for parameters.
         #region Constructor
         public TestStardedPage(Grid _grid, Test _test, MainWindow _mainform, Func<Mark, Mark> _Callback)
         {
@@ -47,6 +51,7 @@ namespace WpfAppEnglishGrammar
             test = _test;
             mainform = _mainform;
             Callback = _Callback;
+            // Review TK: It seems that this field isn't used.
             Random rand = new Random();
         }
         #endregion
@@ -67,7 +72,8 @@ namespace WpfAppEnglishGrammar
             endTime = DateTime.Now + test.Duration;
             // createControls
             #region Сontrols
-
+            // Review TK: It would be great to have this logic within View. I mean *.xaml.
+            // For the future, please use string.Format or string interpolation.
             ColumnDefinitionCollection cDefs = answerGrid.ColumnDefinitions;
             cDefs.Add(new ColumnDefinition() { Name = "tbTest" + test.Id + "tbTestTextRadioButtonsColumn" });
             cDefs.Add(new ColumnDefinition() { Name = "tbTest" + test.Id + "tbTestTextAnswersColumn" });
@@ -208,6 +214,7 @@ namespace WpfAppEnglishGrammar
 
             TextBlock textBlockMessage = new TextBlock();
             textBlockMessage.Name = "textBlockTest" + test.Id + "message";
+            // Review TK: I would prefer to use constants or resx.
             textBlockMessage.Text = testMark.PercentValue >= test.PassValue ? "THE FORSE IS WITH YOU" : "DID YOU CHOOSE THE DARK SIDE?";
             textBlockMessage.FontSize = testMark.PercentValue >= test.PassValue ? 34 : 30;
             textBlockMessage.Width = answerGrid.Width - 10;
@@ -283,6 +290,9 @@ namespace WpfAppEnglishGrammar
         private void TestNextButton_Click(object sender, RoutedEventArgs e)
         {
             NextButton nextButton = sender as NextButton;
+            // Review TK: Possible null reference.
+            // A lot of if statements. Reduce method complexity.
+            // You can use this https://sourcemaking.com/refactoring
             if (nextButton.question != null)
             {
                 if (answersRadioButtuns.Where(b => b.IsChecked.Value).Count() != 0)
@@ -307,6 +317,7 @@ namespace WpfAppEnglishGrammar
         {
             testTimer.Stop();
 
+            // Review TK: Use var if type of variable is clear from the context.
             Mark returnMark = new Mark()
             {
                 TestId = test.Id,
@@ -327,6 +338,7 @@ namespace WpfAppEnglishGrammar
             Callback(testMark);
         }
     }
+    // Review TK: It is a good practice to put classes into separated files.
     public class WindowGenerator 
     {
         /// <summary>
@@ -346,6 +358,7 @@ namespace WpfAppEnglishGrammar
         {
             try
             {
+                // Review TK: You could use string.Format or string interpolation.
                 mainWindow.textBlockName.Text = "First Name:     " + UserConfig.FirstName;
                 mainWindow.textBlockLast.Text = "Last Name:     " + UserConfig.LastName;
                 mainWindow.textBlockLogin.Text = "Login:        " + UserConfig.Login;
@@ -357,6 +370,7 @@ namespace WpfAppEnglishGrammar
                     mainWindow.textBlockScore.Text = allRating.Where(f => f.Login == UserConfig.Login).First().Score + " scores";
                     double level = allRating.Where(f => f.Login == UserConfig.Login).First().PercentScore;
                     mainWindow.textBlockPercentScore.Text = allRating.Where(f => f.Login == UserConfig.Login).First().PercentScore + " % success";
+                    // Review TK: Please use more meaningfull names.
                     BitmapImage bi3 = new BitmapImage();
                     bi3.BeginInit();
 

@@ -1,6 +1,6 @@
 ﻿using System;
 
-
+// Review TK: It would great to move these classes into separated classes.
 namespace WpfAppEnglishGrammar
 {
     public class NoConnectionToDBException : Exception
