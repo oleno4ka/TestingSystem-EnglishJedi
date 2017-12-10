@@ -4,7 +4,6 @@ using EnglishGrammar.DAL.Concrete.Parsers;
 using EnglishGrammar.DAL.Abstraction.Repository;
 using EnglishGrammar.Entities;
 
-
 namespace EnglishGrammar.DAL.Concrete.Repository
 {
     class AnswerRepository : GenericRepository<Answer>, IAnswerRepository
